@@ -1,8 +1,13 @@
 # Last Modified Timestamp in Status Bar
-Displays the last modified timestamp of your current note on your status bar!
+- Shows the note's creation date and last modified date in the Status bar for every note.
+- Options to show/hide for `created` and `last modified`, along with date formatting customization.
+- It pulls metadata directly from the .md files, so it works independently of the note's contents — no frontmatter or code needed.
+- The "last modified" date is updated automatically every time you make a change to your note.
+- No learning curve or coding required, works automatically out of the box.
 
-## Usage
-The timestamp updates frequently (every 2 seconds, and when notes are switched).
+This plugin eliminates the need for Templater scripts and frontmatter properties which achieve the same goal, so you can focus more on what matters: writing notes.
+
+## Showcase
 
 ![demo](./img/demo.png)
 
@@ -10,7 +15,6 @@ The timestamp updates frequently (every 2 seconds, and when notes are switched).
 - Enable/disable toggle for both **created** and **last modified** timestamps
 - Timestamp format for both **created** and **last modified** timestamps
 - Timestamp title in status bar for both **created** and **last modified** timestamps
-- Refresh interval for **last modified** timestamp
 
 ![settings](./img/settings.png)
 
